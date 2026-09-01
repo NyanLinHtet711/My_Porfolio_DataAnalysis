@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jordan Avery — Data Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="nav-name">Jordan Avery</div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#toolkit">Toolkit</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero" style="border-top:none; padding-top:88px;">
+    <div>
+      <div class="status-line">
+        <span class="status-dot"></span>
+        <span>OPEN TO NEW ROLES — DATA ANALYST / ANALYTICS ENGINEER</span>
+      </div>
+      <h1 class="headline">Turning raw data into decisions people trust.</h1>
+      <p class="hero-sub">I'm a data analyst who builds the pipelines, dashboards, and models that help teams stop guessing. Five years across retail, marketing, and subscription products.</p>
+      <div class="cta-row">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+
+    <div class="chart-panel">
+      <div class="chart-panel-head">
+        <div>
+          <div class="chart-panel-title">WEEKLY ROWS PROCESSED</div>
+          <div class="chart-panel-value">3.2M</div>
+        </div>
+        <div class="chart-panel-delta">+24% QoQ</div>
+      </div>
+      <svg class="spark" viewBox="0 0 300 92" preserveAspectRatio="none">
+        <polygon class="spark-fill" points="0,92 0,70 30,64 60,68 90,50 120,55 150,38 180,42 210,28 240,32 270,15 300,20 300,92" fill="url(#g)"/>
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#5FBFB3" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#5FBFB3" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <polyline class="spark-line" points="0,70 30,64 60,68 90,50 120,55 150,38 180,42 210,28 240,32 270,15 300,20"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-num">40+</div>
+      <div class="kpi-label">dashboards shipped to production</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-num">18%</div>
+      <div class="kpi-label">avg. efficiency gain from analyses</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-num">$1.2M</div>
+      <div class="kpi-label">in cost savings identified</div>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="section-head">
+      <h2 class="section-title">Selected work</h2>
+      <div class="section-note">CASE STUDIES</div>
+    </div>
+
+    <div class="projects">
+      <div class="project">
+        <svg class="proj-chart" viewBox="0 0 200 64" preserveAspectRatio="none">
+          <polyline points="0,50 25,44 50,48 75,30 100,34 125,18 150,22 175,8 200,12" fill="none" stroke="#F2A63A" stroke-width="1.6"/>
+        </svg>
+        <div class="proj-body">
+          <h3>Subscription churn model</h3>
+          <p>Built a churn-prediction pipeline that flagged at-risk accounts two weeks earlier than the existing rule-based system.</p>
+          <div class="stack"><span>Python</span><span>scikit-learn</span><span>SQL</span><span>Airflow</span></div>
+        </div>
+        <div class="proj-impact">
+          <div class="num">-12%</div>
+          <div class="lbl">MONTHLY CHURN</div>
+        </div>
+      </div>
+
+      <div class="project">
+        <svg class="proj-chart" viewBox="0 0 200 64" preserveAspectRatio="none">
+          <rect x="8" y="30" width="14" height="26" fill="#5FBFB3"/>
+          <rect x="34" y="18" width="14" height="38" fill="#5FBFB3"/>
+          <rect x="60" y="24" width="14" height="32" fill="#5FBFB3"/>
+          <rect x="86" y="10" width="14" height="46" fill="#5FBFB3"/>
+          <rect x="112" y="20" width="14" height="36" fill="#5FBFB3"/>
+          <rect x="138" y="6" width="14" height="50" fill="#5FBFB3"/>
+          <rect x="164" y="14" width="14" height="42" fill="#5FBFB3"/>
+        </svg>
+        <div class="proj-body">
+          <h3>Retail demand forecast</h3>
+          <p>Forecasted SKU-level demand across 200 stores, balancing stockouts against excess inventory going into peak season.</p>
+          <div class="stack"><span>Python</span><span>Prophet</span><span>Power BI</span></div>
+        </div>
+        <div class="proj-impact">
+          <div class="num">-18%</div>
+          <div class="lbl">STOCKOUT RATE</div>
+        </div>
+      </div>
+
+      <div class="project">
+        <svg class="proj-chart" viewBox="0 0 200 64" preserveAspectRatio="none">
+          <polyline points="0,20 25,26 50,22 75,36 100,30 125,44 150,38 175,50 200,46" fill="none" stroke="#E7E9EE" stroke-width="1.6" opacity="0.5"/>
+          <polyline points="0,50 25,44 50,48 75,30 100,34 125,18 150,22 175,8 200,12" fill="none" stroke="#F2A63A" stroke-width="1.6"/>
+        </svg>
+        <div class="proj-body">
+          <h3>Marketing attribution dashboard</h3>
+          <p>Rebuilt attribution modeling in dbt to show which channels actually drove signups, not just last-click credit.</p>
+          <div class="stack"><span>SQL</span><span>dbt</span><span>Tableau</span></div>
+        </div>
+        <div class="proj-impact">
+          <div class="num">$80K</div>
+          <div class="lbl">SPEND REALLOCATED</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLKIT -->
+  <section id="toolkit">
+    <div class="section-head">
+      <h2 class="section-title">Toolkit</h2>
+      <div class="section-note">TOOLS &amp; METHODS</div>
+    </div>
+    <div class="meters">
+      <div class="meter-row">
+        <div class="meter-label">SQL</div>
+        <div class="meter-track"><div class="meter-fill" data-pct="95"></div></div>
+        <div class="meter-pct">95%</div>
+      </div>
+      <div class="meter-row">
+        <div class="meter-label">Python (pandas, numpy)</div>
+        <div class="meter-track"><div class="meter-fill" data-pct="90"></div></div>
+        <div class="meter-pct">90%</div>
+      </div>
+      <div class="meter-row">
+        <div class="meter-label">Tableau / Power BI</div>
+        <div class="meter-track"><div class="meter-fill" data-pct="85"></div></div>
+        <div class="meter-pct">85%</div>
+      </div>
+      <div class="meter-row">
+        <div class="meter-label">Statistics &amp; A/B testing</div>
+        <div class="meter-track"><div class="meter-fill" data-pct="80"></div></div>
+        <div class="meter-pct">80%</div>
+      </div>
+      <div class="meter-row">
+        <div class="meter-label">dbt / ELT pipelines</div>
+        <div class="meter-track"><div class="meter-fill" data-pct="70"></div></div>
+        <div class="meter-pct">70%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-head">
+      <h2 class="section-title">Experience</h2>
+      <div class="section-note">2019 — PRESENT</div>
+    </div>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">2023 — Present</div>
+        <h3 class="tl-role">Senior Data Analyst</h3>
+        <p class="tl-org">Northline Retail Co.</p>
+        <p class="tl-desc">Own demand forecasting and merchandising analytics for a 200-store retail chain. Lead a small analytics pod supporting inventory and marketing teams.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2021 — 2023</div>
+        <h3 class="tl-role">Data Analyst</h3>
+        <p class="tl-org">Fenwick Analytics</p>
+        <p class="tl-desc">Built self-serve dashboards and churn models for subscription-business clients, translating messy transactional data into product decisions.</p>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2019 — 2021</div>
+        <h3 class="tl-role">Junior Analyst</h3>
+        <p class="tl-org">Beacon Insights</p>
+        <p class="tl-desc">Started in reporting automation — replaced manual weekly spreadsheets with scheduled SQL pipelines and Tableau dashboards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact">
+      <div>
+        <h2 class="contact-head">Let's talk about your data.</h2>
+        <p class="contact-sub">Open to full-time analyst roles and short-term project work. Usually replies within a day.</p>
+      </div>
+      <ul class="contact-links">
+        <li><a href="mailto:jordan.avery@email.com"><span>Email</span><span>jordan.avery@email.com</span></a></li>
+        <li><a href="#"><span>LinkedIn</span><span>/in/jordanavery</span></a></li>
+        <li><a href="#"><span>GitHub</span><span>/jordanavery</span></a></li>
+        <li><a href="#"><span>Resume</span><span>Download PDF</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Jordan Avery</span>
+    <span>Built with data, mostly</span>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
