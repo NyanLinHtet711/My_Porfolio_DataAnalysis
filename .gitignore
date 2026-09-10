@@ -26,5 +26,3 @@ yarn.lock
 
 # Editor backups / logs
 *.log
-*~
-*.swp
