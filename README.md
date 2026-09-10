@@ -10,6 +10,6 @@ Just open `index.html` in a browser — no build step needed.
 
 
 ## Customize
-- Colors and fonts are defined as CSS variables at the top of `styles.css` (`:root`).
+- Colors and fonts are in CSS variables at the top of `styles.css` (`:root`).
 - Section content (name, projects, skills, experience, links) lives directly in `index.html`.
 - this is for data analysis
