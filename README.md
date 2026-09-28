@@ -2,7 +2,7 @@
 
 Structure:
 - `index.html` — page markup and content
-- `styles.css` — all styling (colors, layout, type)
+- `styles.css` — all styling 
 - `script.js` — scroll-triggered skill-meter animation
 
 ## Run it locally
